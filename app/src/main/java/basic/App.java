@@ -4,7 +4,7 @@
 package basic;
 
 
-import basic.interfaces.Main;
+import basic.strings.Main;
 
 public class App {
     public String getGreeting() {
@@ -12,6 +12,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Main.interfacesMain();
+        Main.stringsMain();
     }
 }
