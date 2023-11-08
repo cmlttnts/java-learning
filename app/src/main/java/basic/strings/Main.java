@@ -18,6 +18,8 @@ public class Main {
         joining();
         seperate();
 
+        stringBufferAndBuilder();
+        seperate();
     }
 
     private static void concating(){
@@ -65,4 +67,17 @@ public class Main {
         System.out.println(String.join("-", linkedStrs));
     }
 
+
+    private static void stringBufferAndBuilder(){
+        StringBuffer sb = new StringBuffer("String");
+        sb.append(" ");
+        sb.append("Buffer!");
+
+        System.out.println(sb.toString());
+
+        StringBuilder sb2 = new StringBuilder("String");
+        sb2.append(" ");
+        sb2.append("Builder");
+        System.out.println(sb2);
+    }
 }
