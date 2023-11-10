@@ -4,7 +4,7 @@
 package basic;
 
 
-import basic.strings.Main;
+import basic.interfaces.Dog;
 
 public class App {
     public String getGreeting() {
@@ -12,6 +12,8 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Main.stringsMain();
+        Dog dog = new Dog("Fido", 3);
+        System.out.println(dog.getAge());
+        System.out.println(dog.name);
     }
 }
