@@ -3,8 +3,7 @@
  */
 package basic;
 
-
-import basic.interfaces.Dog;
+import basic.strings.Main;
 
 public class App {
     public String getGreeting() {
@@ -12,8 +11,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Dog dog = new Dog("Fido", 3);
-        System.out.println(dog.getAge());
-        System.out.println(dog.name);
+        Main.stringsMain();
     }
 }

@@ -3,7 +3,6 @@ package basic.strings;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 public class Main {
     private static void seperate() {
@@ -27,6 +26,9 @@ public class Main {
         seperate();
 
         stringSplit();
+        seperate();
+
+        comparing();
         seperate();
     }
 
@@ -118,6 +120,48 @@ public class Main {
         for (String str : splitted) {
             System.out.println(str);
         }
+
+    }
+
+    private static void comparing(){
+        System.out.println("hello\".equals(\"hello\"");
+        System.out.println("hello".equals("hello"));
+
+        System.out.println("\"hello\" == \"hello\"");
+        System.out.println("hello" == "hello");
+
+        String str1 = "hello";
+        String str2 = "hello";
+
+        System.out.println("str1 == str2");
+        System.out.println(str1 == str2);
+
+        System.out.println("str1.equals(str2)");
+        System.out.println(str1.equals(str2));
+
+        String str3 = new String("hello");
+        String str4 = new String("hello");
+        
+        System.out.println("str3 == str4");
+        System.out.println(str3 == str4);
+
+        System.out.println("str3.equals(str4)");
+        System.out.println(str3.equals(str4));
+
+        // equals ignore case
+
+        System.out.println("\"hello\".equalsIgnoreCase(\"HELLO\")");
+        System.out.println("hello".equalsIgnoreCase("HELLO"));
+
+        // comparing lexographically with compareTo, returns 0 if equal, negative if less, positive if greater
+        System.out.println("\"hello\".compareTo(\"hello\")");
+        System.out.println("hello".compareTo("hello"));
+
+        System.out.println("\"hello\".compareTo(\"Hello\")");
+        System.out.println("hello".compareTo("Hello"));
+
+        System.out.println("\"hello\".compareTo(\"helloo\")");
+        System.out.println("hello".compareTo("helloo"));
 
     }
 }
