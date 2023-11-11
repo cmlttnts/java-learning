@@ -1,0 +1,28 @@
+List of Java Topics to Deep Dive
+
+- Strings
+- equals() and hashCode()
+- Collections
+    - Lists
+    - Maps
+    - Sets
+- Streams
+- Optional
+- Interfaces
+- Generics
+- Annotations
+- Exceptions
+- Regex and Pattern Matching
+- Threads
+- Lambdas and Functional Interfaces
+- Date and Time API
+- Records
+- File and Network I/O
+- Gradle and Maven Build Tools
+- JUnit and AssertJ
+- Dependency Injection
+- JDBC 
+- JPA and Hibernate
+- Spring Framework
+- Spring Boot and Spring Data JPA
+- Spring Security and JWT
