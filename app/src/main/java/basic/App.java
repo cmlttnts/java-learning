@@ -3,7 +3,7 @@
  */
 package basic;
 
-import basic.strings.Main;
+import basic.EqualsHashCode.Main;
 
 public class App {
     public String getGreeting() {
@@ -11,6 +11,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Main.stringsMain();
+        Main.main();
     }
 }
