@@ -1,14 +1,17 @@
 List of Java Topics to Deep Dive
 
-- Strings
-- equals() and hashCode()
-- Collections
+- Strings ✅
+- equals() and hashCode() ✅
+- Collections 
     - Lists
-    - Maps
+    - Maps ✅
     - Sets
 - Streams
+  - Collectors
+  - Grouping
 - Optional
-- Interfaces
+- Abstract Classes
+- Interfaces ✅
 - Generics
 - Annotations
 - Exceptions

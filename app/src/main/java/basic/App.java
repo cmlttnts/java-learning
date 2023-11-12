@@ -3,7 +3,7 @@
  */
 package basic;
 
-import basic.EqualsHashCode.Main;
+import basic.Collections.Maps1;
 
 public class App {
     public String getGreeting() {
@@ -11,6 +11,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Main.main();
+        Maps1.maps1Run();
     }
 }
