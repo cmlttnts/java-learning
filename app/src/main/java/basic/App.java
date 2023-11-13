@@ -3,7 +3,7 @@
  */
 package basic;
 
-import basic.Collections.Maps1;
+import basic.Collections3.Lists2;
 
 public class App {
     public String getGreeting() {
@@ -11,6 +11,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Maps1.maps1Run();
+        Lists2.lists2Run();
     }
 }

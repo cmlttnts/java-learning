@@ -2,10 +2,11 @@ List of Java Topics to Deep Dive
 
 - Strings ✅
 - equals() and hashCode() ✅
-- Collections 
-    - Lists
-    - Maps ✅
-    - Sets
+- Collections
+  - Lists
+  - Maps ✅
+  - Sets
+- Enums
 - Streams
   - Collectors
   - Grouping
@@ -15,6 +16,7 @@ List of Java Topics to Deep Dive
 - Generics
 - Annotations
 - Exceptions
+- try-with-resources, AutoCloseable
 - Regex and Pattern Matching
 - Threads
 - Lambdas and Functional Interfaces
@@ -24,7 +26,7 @@ List of Java Topics to Deep Dive
 - Gradle and Maven Build Tools
 - JUnit and AssertJ
 - Dependency Injection
-- JDBC 
+- JDBC
 - JPA and Hibernate
 - Spring Framework
 - Spring Boot and Spring Data JPA
