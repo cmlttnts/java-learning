@@ -3,9 +3,9 @@ List of Java Topics to Deep Dive
 - Strings ✅
 - equals() and hashCode() ✅
 - Collections
-  - Lists
+  - Lists ✅
   - Maps ✅
-  - Sets
+  - Sets ✅
 - Enums
 - Streams
   - Collectors

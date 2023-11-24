@@ -3,7 +3,7 @@
  */
 package basic;
 
-import basic.Collections3.Lists2;
+import basic.Collections3.Sets3;
 
 public class App {
     public String getGreeting() {
@@ -11,6 +11,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Lists2.lists2Run();
+        Sets3.setsMain();
     }
 }
